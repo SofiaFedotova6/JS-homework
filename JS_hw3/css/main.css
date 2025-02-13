@@ -1,0 +1,84 @@
+.clickbox {
+    height: 5vw;
+    width: 5vw;
+    background: #70ffb5;
+    margin: 1vw;
+    cursor: pointer;
+}
+
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
+button{
+    cursor: pointer;
+    font-size: 16px;
+    border: 1% 2%;
+    border-radius: 5px;
+    margin-top: 2% ;
+}
+
+.section1{
+    background: lavender;
+    height: 25vw;
+}
+
+.section2{
+    background: lightblue;
+}
+
+.section3{
+    background: rebeccapurple;
+}
+
+.glassbutton {
+    position: absolute;
+    background-image: url(../img/wall.jpg);
+    background-position: center;
+    background-size: 100%;
+    left: 50%;
+    top: 30px;
+    width: 17%;
+    height: 23%;
+    border-radius: 15%;
+}
+.glassbutton2 {
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    width: 17%;
+    height: 23%;
+    border-radius: 15%;
+    backdrop-filter: blur(3px);
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.glassbutton2:hover {
+    background-color: rgba(255, 160, 160, 0.266);
+    backdrop-filter: blur(3px);
+}
+
+.neobutton {
+    position: absolute;
+    left: 70%;
+    width: 17%;
+    height: 23%;
+    border-radius: 15%;
+    background-color: #fff;
+    top: 30px;
+    box-shadow: 14px 15px 11px 3px rgba(34, 60, 80, 0.18);
+    color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
